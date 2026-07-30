@@ -119,7 +119,7 @@
 }
 
 .instructor-image-placeholder {
-  @apply w-full max-w-md mx-auto aspect-[4/5] bg-pilates-sage rounded-[2rem] flex items-center justify-center shadow-lg border-4 border-pilates-light;
+  @apply w-full max-w-md mx-auto aspect-4/5 bg-pilates-sage rounded-[2rem] flex items-center justify-center shadow-lg border-4 border-pilates-light;
 }
 
 .instructor-info {

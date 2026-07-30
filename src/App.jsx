@@ -1,6 +1,7 @@
 import { CalendarDays, Menu, User, Clock, Award, Heart, Star, MapPin, Phone, Mail } from 'lucide-react';
 import { useState } from 'react';
 import './App.css';
+import Login from './components/Login';
 
 function App() {
   // Estado para controlar qué imagen se está viendo en la galería
@@ -26,10 +27,7 @@ function App() {
         </div>
 
         <div className="user-actions">
-          <button className="btn-login">
-            <User size={18} />
-            Iniciar Sesión
-          </button>
+          <Login />
         </div>
 
         <button className="mobile-menu-btn">

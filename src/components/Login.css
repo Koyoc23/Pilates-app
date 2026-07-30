@@ -1,0 +1,33 @@
+/* src/components/Login.css */
+@reference "tailwindcss";
+
+/* 1. Quitamos el fondo blanco, las sombras y los márgenes gigantes */
+.login-container {
+    @apply flex items-center justify-center;
+}
+
+.login-title {
+    @apply text-2xl font-bold mb-6 text-gray-800;
+}
+
+.user-profile {
+    @apply flex flex-col items-center;
+}
+
+.profile-image {
+    @apply w-20 h-20 rounded-full mb-4 border-4 border-gray-100 object-cover;
+}
+
+.welcome-text {
+    @apply text-lg mb-6 text-gray-600 font-medium;
+}
+
+/* 2. Quitamos el w-full y ajustamos el tamaño (px-4 py-2 y text-sm) para que se vea bien en el menú */
+.btn-login {
+    @apply bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors duration-200 hover:bg-blue-700 shadow-sm flex items-center gap-2;
+}
+
+/* 3. Ajustamos el botón de cerrar sesión para que haga juego en tamaño */
+.btn-logout {
+    @apply bg-red-500 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors duration-200 hover:bg-red-600 shadow-sm flex items-center gap-2;
+}
